@@ -1,0 +1,650 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Politique de confidentialité de notre application Android de routines pour enfants. Privacy policy for our children's routine Android app.">
+  <meta name="robots" content="index, follow">
+  <title>Politique de confidentialité | Privacy Policy</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --primary: #496b56;
+      --primary-light: #eaf1eb;
+      --text: #28352d;
+      --muted: #68756c;
+      --border: #e1e8e2;
+      --background: #f7f9f7;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      width: min(100% - 32px, 820px);
+      margin: 40px auto;
+    }
+
+    .header {
+      text-align: center;
+      padding: 28px 16px 32px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 58px;
+      height: 58px;
+      border-radius: 18px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 28px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 5vw, 2.5rem);
+      line-height: 1.2;
+      margin: 0 0 12px;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.98rem;
+    }
+
+    .language-switch {
+      display: inline-flex;
+      gap: 4px;
+      padding: 5px;
+      background: #e9eee9;
+      border-radius: 14px;
+      margin-top: 24px;
+    }
+
+    .language-switch button {
+      border: 0;
+      border-radius: 10px;
+      padding: 10px 18px;
+      font: inherit;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--muted);
+      background: transparent;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .language-switch button[aria-pressed="true"] {
+      background: var(--white);
+      color: var(--primary);
+      box-shadow: 0 1px 4px #26352d12;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid #88aa92;
+      outline-offset: 3px;
+    }
+
+    .content {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: clamp(22px, 5vw, 48px);
+      box-shadow: 0 8px 30px #23362908;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0 0 30px;
+    }
+
+    h2 {
+      color: var(--primary);
+      font-size: 1.22rem;
+      line-height: 1.4;
+      margin: 32px 0 10px;
+    }
+
+    h2:first-of-type {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 24px;
+      margin: 10px 0 18px;
+    }
+
+    li {
+      padding-left: 3px;
+      margin: 5px 0;
+    }
+
+    a {
+      color: var(--primary);
+      overflow-wrap: anywhere;
+    }
+
+    .notice {
+      background: var(--primary-light);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 20px 0;
+    }
+
+    .notice p {
+      margin: 0;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      padding: 26px 12px;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        width: min(100% - 20px, 820px);
+        margin: 12px auto;
+      }
+
+      .header {
+        padding: 24px 8px;
+      }
+
+      .content {
+        border-radius: 16px;
+      }
+
+      .language-switch button {
+        padding: 10px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="header">
+      <div class="brand" aria-hidden="true">☀</div>
+
+      <h1 id="page-title">Politique de confidentialité</h1>
+
+      <p class="subtitle" id="page-subtitle">
+        Votre vie privée et celle de votre famille comptent.
+      </p>
+
+      <div class="language-switch" role="group"
+           aria-label="Choisir la langue">
+        <button type="button" id="btn-fr"
+                aria-pressed="true" lang="fr">
+          Français
+        </button>
+        <button type="button" id="btn-en"
+                aria-pressed="false" lang="en">
+          English
+        </button>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <!-- VERSION FRANÇAISE -->
+      <article id="content-fr" lang="fr">
+
+        <p class="updated">
+          <strong>Dernière mise à jour :</strong> 20 octobre 2026
+        </p>
+
+        <h2>1. À propos de l'application</h2>
+        <p>
+          Starry est une application Android qui aide
+          les familles à organiser les routines du matin et du soir
+          des enfants.
+        </p>
+        <p>
+          L'application fonctionne localement sur l'appareil. Aucun
+          compte utilisateur ni aucune inscription ne sont nécessaires.
+          Les informations saisies sont conservées localement et ne
+          sont pas transmises à un serveur exploité par l'éditeur.
+        </p>
+
+        <h2>2. Éditeur et contact</h2>
+        <p>L'application est éditée par un développeur indépendant.</p>
+        <ul>
+          <li><strong>Développeur :</strong> [Nom du développeur]</li>
+          <li>
+            <strong>E-mail :</strong>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li><strong>Pays :</strong> France</li>
+        </ul>
+        <p>
+          Pour toute question concernant cette politique ou la protection
+          des données, vous pouvez contacter l'éditeur à cette adresse.
+        </p>
+
+        <h2>3. Données enregistrées</h2>
+        <p>
+          L'application utilise une base de données locale Room/SQLite
+          pour enregistrer les informations nécessaires à son
+          fonctionnement. Selon les fonctionnalités utilisées, celles-ci
+          peuvent inclure :
+        </p>
+        <ul>
+          <li>les prénoms ou noms personnalisés des enfants ;</li>
+          <li>les routines du matin et du soir ;</li>
+          <li>les étapes, tâches et descriptions personnalisées ;</li>
+          <li>l'état d'avancement des tâches ;</li>
+          <li>les préférences de l'application ;</li>
+          <li>l'historique éventuel de réalisation des routines.</li>
+        </ul>
+        <p>
+          L'application ne demande pas de compte, d'adresse e-mail,
+          de numéro de téléphone ni de coordonnées de localisation
+          pour fonctionner.
+        </p>
+
+        <h2>4. Utilisation des données</h2>
+        <p>Les données servent uniquement à :</p>
+        <ul>
+          <li>créer et modifier les routines ;</li>
+          <li>afficher les tâches à réaliser ;</li>
+          <li>mémoriser la progression des routines ;</li>
+          <li>retrouver les informations lors des utilisations suivantes.</li>
+        </ul>
+        <p>
+          Les données ne sont pas utilisées par l'éditeur à des fins
+          publicitaires, de profilage commercial ou de revente.
+        </p>
+
+        <h2>5. Stockage et transmission</h2>
+        <p>
+          Les données fonctionnelles sont stockées dans une base de
+          données Room/SQLite sur l'appareil Android.
+        </p>
+        <p>
+          L'application n'intègre aucun SDK externe d'analyse d'audience
+          ou de publicité et n'utilise aucun service distant pour
+          transmettre les données des routines. L'éditeur ne reçoit
+          pas ces données dans le cadre du fonctionnement normal
+          de l'application.
+        </p>
+        <div class="notice">
+          <p>
+            <strong>Sauvegardes :</strong> Android, le fabricant de
+            l'appareil ou un service de sauvegarde peut éventuellement
+            conserver des données selon la configuration du système
+            et de l'application.
+          </p>
+        </div>
+
+        <h2>6. Publicité et suivi</h2>
+        <p>
+          L'application ne contient pas de publicité et n'intègre aucun
+          SDK tiers destiné à l'analyse d'audience ou au suivi publicitaire.
+          Elle ne réalise aucun profilage commercial à partir des routines.
+        </p>
+
+        <h2>7. Notifications et autorisations</h2>
+        <p>
+          L'application ne propose pas de notifications ni de rappels
+          programmés. Les autorisations éventuellement utilisées sont
+          limitées aux besoins réels des fonctionnalités proposées.
+        </p>
+
+        <h2>8. Conservation et suppression</h2>
+        <p>
+          Les données restent sur l'appareil tant que l'utilisateur
+          souhaite conserver les routines.
+        </p>
+        <p>
+          Les données peuvent être supprimées à l'aide des fonctions
+          de suppression de l'application, lorsqu'elles sont disponibles,
+          ou en effaçant les données de l'application depuis les
+          paramètres Android. La désinstallation peut également
+          supprimer les données locales.
+        </p>
+        <p>
+          Ces opérations ne garantissent pas la suppression d'éventuelles
+          copies conservées dans une sauvegarde ou un autre service
+          du système. L'éditeur ne dispose pas d'un accès distant à
+          la base de données locale et ne peut pas supprimer à distance
+          les données de l'appareil.
+        </p>
+
+        <h2>9. Protection des enfants</h2>
+        <p>
+          L'application est conçue pour aider les enfants et leurs
+          familles à organiser les activités quotidiennes.
+        </p>
+        <p>
+          Nous encourageons les parents ou représentants légaux à
+          accompagner les enfants et à éviter de saisir des informations
+          personnelles inutiles. Les données des routines sont stockées
+          localement selon le fonctionnement décrit dans cette politique.
+        </p>
+
+        <h2>10. Sécurité</h2>
+        <p>
+          Les données sont stockées dans une base de données locale
+          Room/SQLite. Leur sécurité dépend notamment des protections
+          d'Android, de la sécurité de l'appareil et de la configuration
+          du stockage.
+        </p>
+        <p>
+          L'éditeur cherche à limiter les données enregistrées à celles
+          nécessaires au fonctionnement de l'application. Aucun système
+          ne peut garantir une sécurité absolue.
+        </p>
+
+        <h2>11. Droits relatifs aux données personnelles</h2>
+        <p>
+          Lorsque la réglementation applicable, notamment le RGPD,
+          s'applique, les personnes concernées peuvent disposer de droits
+          d'accès, de rectification, d'effacement, de limitation et
+          d'autres droits selon leur situation.
+        </p>
+        <p>
+          Les données étant conservées localement et n'étant pas
+          accessibles à distance par l'éditeur, leur consultation
+          ou leur suppression peut généralement être effectuée
+          directement sur l'appareil.
+        </p>
+        <p>
+          Pour toute question, contactez l'éditeur à l'adresse indiquée
+          dans la section 2. En France, vous pouvez également consulter
+          le site de la
+          <a href="https://www.cnil.fr/"
+             target="_blank" rel="noopener noreferrer">CNIL</a>.
+        </p>
+
+        <h2>12. Modifications de cette politique</h2>
+        <p>
+          Cette politique peut être mise à jour en cas d'évolution
+          de l'application, de son fonctionnement technique ou des
+          obligations applicables. La date de dernière mise à jour
+          sera indiquée en haut de cette page.
+        </p>
+
+        <h2>13. Contact</h2>
+        <p>
+          Pour toute question relative à cette politique :
+        </p>
+        <ul>
+          <li><strong>Éditeur :</strong> [Nom du développeur]</li>
+          <li>
+            <strong>E-mail :</strong>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+        </ul>
+
+      </article>
+
+      <!-- ENGLISH VERSION -->
+      <article id="content-en" lang="en" hidden>
+
+        <p class="updated">
+          <strong>Last updated:</strong> October 20, 2026
+        </p>
+
+        <h2>1. About the app</h2>
+        <p>
+          Starry is an Android application that helps families
+          organize children's morning and evening routines.
+        </p>
+        <p>
+          The app operates locally on the device. No user account
+          or registration is required. Information entered into the
+          app is stored locally and is not sent to a server operated
+          by the developer.
+        </p>
+
+        <h2>2. Developer and contact</h2>
+        <p>The app is published by an independent developer.</p>
+        <ul>
+          <li><strong>Developer:</strong> [Developer name]</li>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li><strong>Country:</strong> France</li>
+        </ul>
+        <p>
+          For questions about this policy or data protection, you can
+          contact the developer using the email address above.
+        </p>
+
+        <h2>3. Data stored</h2>
+        <p>
+          The app uses a local Room/SQLite database to store information
+          required for its functionality. Depending on the features used,
+          this information may include:
+        </p>
+        <ul>
+          <li>children's names or nicknames entered by the user;</li>
+          <li>morning and evening routines;</li>
+          <li>custom steps, tasks and descriptions;</li>
+          <li>task completion status;</li>
+          <li>app preferences;</li>
+          <li>any history of completed routines.</li>
+        </ul>
+        <p>
+          The app does not require an account, email address, phone
+          number or location information to function.
+        </p>
+
+        <h2>4. How data is used</h2>
+        <p>Data is used solely to:</p>
+        <ul>
+          <li>create and edit routines;</li>
+          <li>display tasks to be completed;</li>
+          <li>remember routine progress;</li>
+          <li>restore information during future use.</li>
+        </ul>
+        <p>
+          The developer does not use this data for advertising,
+          commercial profiling or resale.
+        </p>
+
+        <h2>5. Local storage and data transfers</h2>
+        <p>
+          App data is stored in a Room/SQLite database on the Android
+          device.
+        </p>
+        <p>
+          The app does not include third-party analytics or advertising
+          SDKs and does not use a remote service to transmit routine
+          data. The developer does not receive this data during normal
+          app operation.
+        </p>
+        <div class="notice">
+          <p>
+            <strong>Backups:</strong> Android, the device manufacturer
+            or a backup service may retain data depending on the
+            device and app configuration.
+          </p>
+        </div>
+
+        <h2>6. Advertising and tracking</h2>
+        <p>
+          The app contains no advertising and does not integrate
+          third-party SDKs for analytics or advertising tracking.
+          It does not perform commercial profiling based on routines.
+        </p>
+
+        <h2>7. Notifications and permissions</h2>
+        <p>
+          The app does not provide notifications or scheduled reminders.
+          Any permissions used by the app are limited to those needed
+          for its actual features.
+        </p>
+
+        <h2>8. Data retention and deletion</h2>
+        <p>
+          Data remains on the device for as long as the user wishes
+          to keep their routines.
+        </p>
+        <p>
+          Data can be deleted using the app's deletion features, where
+          available, or by clearing the app's data in Android settings.
+          Uninstalling the app may also delete local data.
+        </p>
+        <p>
+          These actions do not guarantee deletion of copies that may
+          exist in backups or other system services. The developer
+          has no remote access to the local database and cannot
+          remotely delete data stored on the device.
+        </p>
+
+        <h2>9. Children's privacy</h2>
+        <p>
+          The app is designed to help children and their families
+          organize everyday activities.
+        </p>
+        <p>
+          Parents and legal guardians are encouraged to guide children's
+          use of the app and avoid entering unnecessary personal
+          information. Routine data is stored locally as described
+          in this policy.
+        </p>
+
+        <h2>10. Data security</h2>
+        <p>
+          Data is stored in a local Room/SQLite database. Its security
+          depends on Android's protections, the security of the device
+          and the app's storage configuration.
+        </p>
+        <p>
+          The developer aims to limit stored information to what is
+          necessary for the app to function. No storage system can
+          guarantee absolute security.
+        </p>
+
+        <h2>11. Data protection rights</h2>
+        <p>
+          Where applicable data protection laws, including the GDPR,
+          apply, individuals may have rights to access, rectify, erase
+          or restrict the processing of their personal data, as well
+          as other rights depending on their circumstances.
+        </p>
+        <p>
+          Since routine data is stored locally and is not remotely
+          accessible to the developer, it can generally be viewed
+          or deleted directly on the device.
+        </p>
+        <p>
+          For questions, contact the developer using the address
+          provided in Section 2. In France, you may also visit the
+          <a href="https://www.cnil.fr/"
+             target="_blank" rel="noopener noreferrer">CNIL website</a>.
+        </p>
+
+        <h2>12. Changes to this policy</h2>
+        <p>
+          This policy may be updated if the app, its technical
+          operation or applicable requirements change. The latest
+          update date will be shown at the top of this page.
+        </p>
+
+        <h2>13. Contact</h2>
+        <p>
+          For questions about this privacy policy:
+        </p>
+        <ul>
+          <li><strong>Developer:</strong> [Developer name]</li>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+        </ul>
+
+      </article>
+    </main>
+
+    <footer>
+      <p id="footer-text">
+        © 2026 Starry. Tous droits réservés.
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    const btnFr = document.getElementById("btn-fr");
+    const btnEn = document.getElementById("btn-en");
+    const contentFr = document.getElementById("content-fr");
+    const contentEn = document.getElementById("content-en");
+    const pageTitle = document.getElementById("page-title");
+    const subtitle = document.getElementById("page-subtitle");
+    const footerText = document.getElementById("footer-text");
+
+    function setLanguage(language) {
+      const isFrench = language === "fr";
+
+      document.documentElement.lang = language;
+
+      contentFr.hidden = !isFrench;
+      contentEn.hidden = isFrench;
+
+      btnFr.setAttribute("aria-pressed", String(isFrench));
+      btnEn.setAttribute("aria-pressed", String(!isFrench));
+
+      pageTitle.textContent = isFrench
+        ? "Politique de confidentialité"
+        : "Privacy Policy";
+
+      subtitle.textContent = isFrench
+        ? "Votre vie privée et celle de votre famille comptent."
+        : "Your privacy and your family's privacy matter.";
+
+      footerText.textContent = isFrench
+        ? "© 2026 Starry. Tous droits réservés."
+        : "© 2026 Starry. All rights reserved.";
+
+      document.title = isFrench
+        ? "Politique de confidentialité"
+        : "Privacy Policy";
+    }
+
+    btnFr.addEventListener("click", () => setLanguage("fr"));
+    btnEn.addEventListener("click", () => setLanguage("en"));
+
+    // Use the browser language when it is English.
+    // Otherwise, display French by default.
+    const browserLanguage = navigator.language || "fr";
+    setLanguage(browserLanguage.toLowerCase().startsWith("en")
+      ? "en"
+      : "fr");
+  </script>
+</body>
+</html>
